@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Sweety_Bitterdragon.label>ビタードラゴン</Sweety_Bitterdragon.label>
+  <Sweety_Bitterdragon.description>"魔法のチョコレート"によって動物から変異した,チョコレートミルクと砂糖の塊でできた小さいドラゴンです.\n素早いひっかきと鋭い角の攻撃で敵を迎え撃ちます.\nスウィーティと同じくチョコレートミルクを産出しますが,スウィーティと違いある程度自由に物を食べることが出来ます.</Sweety_Bitterdragon.description>
+  <Sweety_Bitterdragon.tools.0.label>角</Sweety_Bitterdragon.tools.0.label>
+  <Sweety_Bitterdragon.tools.1.label>噛みつき</Sweety_Bitterdragon.tools.1.label>
+  <Sweety_Bitterdragon.tools.2.label>左足</Sweety_Bitterdragon.tools.2.label>
+  <Sweety_Bitterdragon.tools.3.label>右足</Sweety_Bitterdragon.tools.3.label>
+
+
+</LanguageData>

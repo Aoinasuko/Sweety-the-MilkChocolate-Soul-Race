@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Sweety_ChocoMilk.label>Sweety チョコレートミルク</Sweety_ChocoMilk.label>
+  <Sweety_ChocoMilk.description>スウィーティからとれるチョコミルクです.\nチョコレートのように,娯楽を満たす効果があります.\nいくつか集めることでチョコレートミルクケーキを作成できます.</Sweety_ChocoMilk.description>
+
+  <Sweety_ChocoMilk_Cake.label>Sweety チョコレートミルクケーキ</Sweety_ChocoMilk_Cake.label>
+  <Sweety_ChocoMilk_Cake.description>チョコレートミルクと砂糖の塊とその他諸々を組み合わせて作られたすごく美味なチョコレートミルクケーキです.\n並みの生物であればこれ1個で腹を満たすことができ,更に暫くの間満腹感を維持することが出来るでしょう.</Sweety_ChocoMilk_Cake.description>
+
+  <Sweety_MagicChocolate.label>Sweety マジカルチョコレート</Sweety_MagicChocolate.label>
+  <Sweety_MagicChocolate.description>&lt;color=#FF5555&gt;この食べ物は食べたキャラクターに不可逆的な変化を起こします.\n取り扱いには細心の注意を払ってください.&lt;/color&gt;\n\nかつてある企業が従業員として従順なスウィーティを増やすために開発した"魔法のチョコレート"です.\n一度食べたら最後,もともとの生物が持っていた意識は失われ新たにスウィーティ,もしくはビタードラゴンとして生まれ変わります.</Sweety_MagicChocolate.description>
+
+</LanguageData>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <HediffDef>
+    <defName>Sweety_Melt</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.4, 1.0)</defaultLabelColor>
+    <isBad>true</isBad>
+    <initialSeverity>0.05</initialSeverity>
+    <lethalSeverity>1.0</lethalSeverity>
+    <label>Sweety Melt</label>
+    <description>The body is about to melt under the influence of nanomachines.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>3600</min>
+          <max>3600</max>
+        </disappearsAfterTicks>
+      </li>
+      <li Class="Sweety_Race.HediffCompProperties_Melting">
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>unaffected</label>
+      </li>
+      <li>
+        <label>melting</label>
+        <minSeverity>0.3</minSeverity>
+      </li>
+      <li>
+        <label>Rapid melting</label>
+        <minSeverity>0.6</minSeverity>
+      </li>
+      <li>
+        <label>melted</label>
+        <minSeverity>1.0</minSeverity>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>Sweety_HeatResistMod</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.5, 1.0, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>HeatResist Mod</label>
+    <description>Heat-resistant modification is performed.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMax>30</ComfyTemperatureMax>
+          <ArmorRating_Heat>0.5</ArmorRating_Heat>
+          <Flammability>-2.0</Flammability>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>Sweety_HeatResist</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.5, 1.0, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>HeatResist</label>
+    <description>This is a temporary heat resistance at the time of appearance.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>120000</min>
+          <max>120000</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>Sweety_AteCake</defName>
+    <label>Ate Cake</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.5, 1.0, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <description>I have a full belly and a full cake.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>60000</min>
+          <max>60000</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <hungerRateFactorOffset>-1.0</hungerRateFactorOffset>
+      </li>
+    </stages>
+  </HediffDef>
+  
+</Defs>

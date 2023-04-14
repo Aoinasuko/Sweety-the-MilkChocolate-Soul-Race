@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Sweety_Bitterdragon</defName>
+    <label>BitterDragon</label>
+    <description>They are small dragon-like creatures whose bodies are mostly made up of chocolate and sugar lumps. It is believed that the animal was mutated by the influence of chocolate. They are not susceptible to warm weather.</description>
+    <statBases>
+      <Mass>30</Mass>
+      <MoveSpeed>7.5</MoveSpeed>
+      <MarketValue>750</MarketValue>
+      <ComfyTemperatureMin>-1000</ComfyTemperatureMin>
+      <ComfyTemperatureMax>15</ComfyTemperatureMax>
+      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.00</ArmorRating_Heat>
+    </statBases>
+    <tools>
+      <li>
+        <label>horn</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>0.8</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>left foot</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>0.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right foot</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>0.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithHoovesAndHorn</body>
+      <herdMigrationAllowed>false</herdMigrationAllowed>
+      <baseBodySize>0.4</baseBodySize>
+      <baseHungerRate>0.2</baseHungerRate>
+      <baseHealthScale>2.5</baseHealthScale>
+      <foodType>OmnivoreAnimal</foodType>
+      <trainability>Advanced</trainability>
+      <bloodDef>Filth_Sweety_Blood</bloodDef>
+      <gestationPeriodDays>10</gestationPeriodDays>
+      <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+      <wildness>0.0</wildness>
+      <lifeExpectancy>200</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>Bitterdragon_Fresh</def>
+          <minAge>0</minAge>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <ageGenerationCurve>
+        <points>
+          <li>(1,0)</li>
+          <li>(2,100)</li>
+          <li>(3,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <specificMeatDef>Chocolate</specificMeatDef>
+    </race>
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Sweety_ChocoMilk</milkDef>
+          <milkIntervalDays>1</milkIntervalDays>
+          <milkAmount>3</milkAmount>
+      </li>
+      <li Class="Sweety_Race.CompProperties_Sweety">
+      </li>
+    </comps>
+    <butcherProducts>
+      <Chocolate>15</Chocolate>
+    </butcherProducts>
+    <recipes>
+      <li>Sweety_HeatResistMod</li>
+    </recipes>
+  </ThingDef>
+  
+  <LifeStageDef>
+    <defName>Bitterdragon_Fresh</defName>
+    <label>Bitterdragon Fresh</label>
+    <reproductive>true</reproductive>
+    <milkable>true</milkable>
+    <visible>false</visible>
+  </LifeStageDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Sweety_Bitterdragon</defName>
+    <label>Bitterdragon</label>
+    <race>Sweety_Bitterdragon</race>
+    <combatPower>180</combatPower>
+    <canArriveManhunter>false</canArriveManhunter>
+    <ecoSystemWeight>1</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <label>Bitterdragon</label>
+        <labelPlural>Bitterdragon's</labelPlural>
+        <bodyGraphicData>
+          <texPath>Sweety/Animal/BitterDragon/BitterDragon</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.1, 0.1, 0.1)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+ 
+</Defs>

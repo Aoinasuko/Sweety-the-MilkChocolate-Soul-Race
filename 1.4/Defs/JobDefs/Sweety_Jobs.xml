@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>MilkSweety</defName>
+		<label>milking</label>
+		<giverClass>Sweety_Race.WorkGiver_MilkSweety</giverClass>
+		<workType>Handling</workType>
+		<verb>milk</verb>
+		<gerund>milking</gerund>
+		<priorityInType>90</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<JobDef>
+		<defName>MilkingSweety</defName>
+		<driverClass>Sweety_Race.JobDriver_MilkSweety</driverClass>
+		<reportString>milking TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+</Defs>

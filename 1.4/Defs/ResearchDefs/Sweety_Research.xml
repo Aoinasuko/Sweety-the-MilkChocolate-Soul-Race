@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchTabDef>
+		<defName>Sweety_Research</defName>
+		<label>Sweety</label>
+	</ResearchTabDef>
+	
+	<ResearchProjectDef>
+	    <defName>Sweety_Knowledge</defName>
+	    <label>Knowledge</label>
+	    <description>You will learn about Sweety and be able to create basic item.</description>
+	    <baseCost>500</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Sweety_Research</li>
+	    </tab>
+	    <researchViewX>0</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Sweety_Cocoaplanter</defName>
+	    <label>Cocoa Planter</label>
+	    <description>Gain knowledge of small cacao that can be created hydroponically.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Sweety_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Sweety_Knowledge</li>
+	      <li>Cocoa</li>
+	      <li>Hydroponics</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Sweety_ChocolatePolymorph</defName>
+	    <label>Chocolate Polymorph</label>
+	    <description>You will be able to create weapons that mutate your enemies into chocolate.</description>
+	    <baseCost>1500</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Sweety_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Sweety_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Sweety_Costumes</defName>
+	    <label>Costumes</label>
+	    <description>It will allow you to create Sweety outfits.</description>
+	    <baseCost>500</baseCost>
+	    <techLevel>Medieval</techLevel>
+	    <tab>
+	      <li>Sweety_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Sweety_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Sweety_CoolerSuit</defName>
+	    <label>Cooler Suit</label>
+	    <description>You will be able to create a cooler suit, protecting Sweety from the heat.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Sweety_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Sweety_Costumes</li>
+	    </prerequisites>
+	    <researchViewX>2</researchViewX>
+	    <researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>Sweety_HeatResistMod</defName>
+	    <label>Heat Resist Mod</label>
+	    <description>It will be possible to perform modification surgery to make the Sweety more heat resistant.</description>
+	    <baseCost>2000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>Sweety_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Sweety_CoolerSuit</li>
+	    </prerequisites>
+	    <researchViewX>3</researchViewX>
+	    <researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

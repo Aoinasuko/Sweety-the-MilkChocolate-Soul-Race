@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>Sweety_WildSweety</defName>
+    <label>Wild Sweety</label>
+    <description>Wild Sweety.</description>
+    <colorSpectrum>
+      <li>(1, 1, 1)</li>
+    </colorSpectrum>
+    <pawnSingular>Wild Sweety</pawnSingular>
+    <pawnsPlural>Wild Sweeties</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <mustStartOneEnemy>false</mustStartOneEnemy>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <hidden>true</hidden>
+    <rescueesCanJoin>true</rescueesCanJoin>
+    <autoFlee>false</autoFlee>
+    <classicIdeo>false</classicIdeo>
+    <factionIconPath>Sweety/UI/Faction</factionIconPath>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <structureMemeWeights>
+      <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">10</Structure_Animist>
+    </structureMemeWeights>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Sweety_BackStory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <settlementTexturePath>Sweety/UI/Faction</settlementTexturePath>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </FactionDef>
+
+</Defs>

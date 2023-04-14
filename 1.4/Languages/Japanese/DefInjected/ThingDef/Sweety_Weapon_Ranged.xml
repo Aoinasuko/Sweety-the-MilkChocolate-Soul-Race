@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Sweety_MeltMaker.label>Sweety メルトメーカー</Sweety_MeltMaker.label>
+  <Sweety_MeltMaker.description>敵の体を溶かす危険なナノマシン入りの弾丸が詰まっている銃です.\n数発では大きな効果はありませんが,何度も命中した場合徐々に体が溶け始めます.</Sweety_MeltMaker.description>
+  <Sweety_MeltMaker.tools.0.label>バレル</Sweety_MeltMaker.tools.0.label>
+
+  <Sweety_MeltBullet.label>メルトバレット</Sweety_MeltBullet.label>
+
+
+</LanguageData>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<StyleItemCategoryDef>
+		<defName>Sweety</defName>
+		<label>Sweety</label>
+	</StyleItemCategoryDef>
+	
+	<HairDef>
+		<defName>Sweety_Short</defName>
+		<label>Sweety Short</label>
+		<styleGender>Any</styleGender>
+		<texPath>Sweety/Race/Hair/Short/Short</texPath>
+		<category>Sweety</category>
+		<styleTags>
+			<li>Sweety</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Sweety_Okappa</defName>
+		<label>Sweety Okappa</label>
+		<styleGender>Any</styleGender>
+		<texPath>Sweety/Race/Hair/Okappa/Okappa</texPath>
+		<category>Sweety</category>
+		<styleTags>
+			<li>Sweety</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Sweety_Long</defName>
+		<label>Sweety Long</label>
+		<styleGender>Any</styleGender>
+		<texPath>Sweety/Race/Hair/Long/Long</texPath>
+		<category>Sweety</category>
+		<styleTags>
+			<li>Sweety</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Sweety_Mituami</defName>
+		<label>Sweety Mituami</label>
+		<styleGender>Any</styleGender>
+		<texPath>Sweety/Race/Hair/Mituami/Mituami</texPath>
+		<category>Sweety</category>
+		<styleTags>
+			<li>Sweety</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Sweety_Ahoge</defName>
+		<label>Sweety Ahoge</label>
+		<styleGender>Any</styleGender>
+		<texPath>Sweety/Race/Hair/Ahoge/Ahoge</texPath>
+		<category>Sweety</category>
+		<styleTags>
+			<li>Sweety</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Sweety_TwintailLike</defName>
+		<label>Sweety TwintailLike</label>
+		<styleGender>Any</styleGender>
+		<texPath>Sweety/Race/Hair/TwintailLike/TwintailLike</texPath>
+		<category>Sweety</category>
+		<styleTags>
+			<li>Sweety</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Sweety_Mekakure_L</defName>
+		<label>Sweety Mekakure L</label>
+		<styleGender>Any</styleGender>
+		<texPath>Sweety/Race/Hair/MekakureL/MekakureL</texPath>
+		<category>Sweety</category>
+		<styleTags>
+			<li>Sweety</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Sweety_Mekakure_R</defName>
+		<label>Sweety Mekakure R</label>
+		<styleGender>Any</styleGender>
+		<texPath>Sweety/Race/Hair/MekakureR/MekakureR</texPath>
+		<category>Sweety</category>
+		<styleTags>
+			<li>Sweety</li>
+		</styleTags>
+	</HairDef>
+	
+</Defs>

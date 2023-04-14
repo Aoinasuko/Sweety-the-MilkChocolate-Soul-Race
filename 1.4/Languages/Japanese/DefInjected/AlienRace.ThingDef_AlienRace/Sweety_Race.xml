@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Sweety_Pawn.label>スウィーティ</Sweety_Pawn.label>
+  <Sweety_Pawn.description>スウィーティはある企業の"魔法のチョコレート"を生物が食べることでその肉体を元に産まれてくる生物です.\nかつてとある企業が愚かな人間達に"魔法のチョコレート"を振る舞い,スウィーティとして洗脳を行い"従業員"を増やしていました.\n今日でも稀に"魔法のチョコレート"を食べてしまいスウィーティに変化してしまう事故が発生しています.\n\n彼女たちは生命活動が停止していなければ物理的な損傷を瞬く間に治癒していきます.\nしかし熱に非常に弱く,暑い場所ではその体が徐々に溶けていってしまい最終的に蒸発してしまいます.\n彼女たちからはとても美味しいチョコレートミルクを採取することが出来,チョコレートミルクケーキは大食漢でも満足できるほど美味と言われています.\n\n&lt;color=#FF5555&gt;彼女たちはチョコレート,もしくはチョコレートっぽい物しか食べることが出来ません.&lt;/color&gt;</Sweety_Pawn.description>
+  <Sweety_Pawn.tools.0.label>歯</Sweety_Pawn.tools.0.label>
+  <Sweety_Pawn.tools.1.label>左拳</Sweety_Pawn.tools.1.label>
+  <Sweety_Pawn.tools.2.label>右拳</Sweety_Pawn.tools.2.label>
+  <Sweety_Pawn.tools.3.label>角</Sweety_Pawn.tools.3.label>
+
+
+</LanguageData>

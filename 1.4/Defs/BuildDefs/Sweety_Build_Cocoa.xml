@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Sweety_Plant_SmallCocoa</defName>
+    <label>Small Cocoa</label>
+    <description>Cacao trees improved for growing in small areas. It grows quickly, but yields a slightly smaller crop.</description>
+    <graphicData>
+      <texPath>Sweety/Thing/SmallCocoa</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.3, 0.13)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+      <drawSize>(1.0, 1.0)</drawSize>
+    </graphicData>
+    <selectable>true</selectable>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+      <Nutrition>0.7</Nutrition>
+    </statBases>
+    <minifiedDef IsNull="True" />
+    <ingestible />
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <growDays>8</growDays>
+      <visualSizeRange>0.3~1.00</visualSizeRange>
+      <sowMinSkill>10</sowMinSkill>
+      <sowTags Inherit="False">
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowResearchPrerequisites Inherit="False">
+        <li>Sweety_Cocoaplanter</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.15</topWindExposure>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <immatureGraphicPath>Sweety/Thing/SmallCocoa</immatureGraphicPath>
+      <harvestWork>310</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <forceIsTree>false</forceIsTree>
+      <harvestYield>15</harvestYield>
+      <harvestedThingDef>Chocolate</harvestedThingDef>
+      <harvestFailable>true</harvestFailable>
+      <interferesWithRoof>false</interferesWithRoof>
+      <treeCategory>None</treeCategory>
+    </plant>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Sweety_Melt.label>スウィーティメルト</Sweety_Melt.label>
+  <Sweety_Melt.description>ナノマシンの影響で体が溶けかけている状態です.\n軽症であれば影響はありませんが,悪化すると段々と体が溶けていきます.</Sweety_Melt.description>
+  <Sweety_Melt.stages.0.label>影響なし</Sweety_Melt.stages.0.label>
+  <Sweety_Melt.stages.1.label>溶けている</Sweety_Melt.stages.1.label>
+  <Sweety_Melt.stages.2.label>溶けかけ</Sweety_Melt.stages.2.label>
+  <Sweety_Melt.stages.3.label>溶けた</Sweety_Melt.stages.3.label>
+
+  <Sweety_HeatResistMod.label>耐熱改造</Sweety_HeatResistMod.label>
+  <Sweety_HeatResistMod.description>耐熱改造を行った状態です.</Sweety_HeatResistMod.description>
+
+  <Sweety_HeatResist.label>耐熱</Sweety_HeatResist.label>
+  <Sweety_HeatResist.description>しばらく熱中症によって体が溶けなくなります.\n(登場後に一時的に与えられる保護)</Sweety_HeatResist.description>
+
+  <Sweety_AteCake.label>チョコレートミルクケーキ</Sweety_AteCake.label>
+  <Sweety_AteCake.description>美味しいチョコレートミルクケーキを食べて,空腹の減少が抑えられた状態です.</Sweety_AteCake.description>
+
+
+</LanguageData>

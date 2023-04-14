@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Sweety the MilkChocolate Soul Race</name>
+  <author>Aoi_nasuko</author>
+  <packageId>bep.sweety.mcsr</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      <downloadUrl></downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>Nals.FacialAnimation</li>
+    <li>Nals.FacialAnimationExperimentals</li>
+  </loadAfter>
+  <description><![CDATA[
+【対応言語】
+日本語
+English(Machine translation)
+
+ミルクチョコレートの魂、スウィーティ
+
+<color=#77FFFF><size=20>＊概要</size></color>
+このMODはLittle Fairy RopeWorkTaleに実装していたスウィーティを分離し、作成し直したMODです。
+ミルクチョコレートと砂糖の塊で出来た種族、スウィーティを追加します。
+
+<color=#77FFFF><size=15>＊ストーリー</size></color>
+スウィーティはある企業によって作られた、ミルクチョコレートと砂糖の塊で出来た種族です。
+特別な魔法のチョコレートを生物が摂取することによって、スウィーティへと変化します。
+かつてある企業は、このスウィーティを使って人間達を都合の良い従業員たちに変化させていたようです。
+
+今ではスウィーティ達はやや珍しい種族として売買され、
+様々な場所で他の種族の手助けをするようになっていきました。
+
+<color=#77FFFF><size=15>＊入手方法</size></color>
+-時折、奴隷として売られているため購入して入手
+-カカオの木の研究をアンロックして、特別な魔法のチョコレートを作成しプレイアブル種族が食べることでスウィーティに変異する
+
+<color=#77FFFF><size=15>＊特徴</size></color>
+<color=#77FFFF>-寒さにものすごく強い</color>
+<color=#77FFFF>-体格がやや小さい</color>
+<color=#77FFFF>-部位HPが高い</color>
+<color=#77FFFF>-熱中症を発症していない場合欠損や傷が時間経過で治る</color>
+<color=#77FFFF>-成熟した個体から、美味しいチョコレートミルクを採取することが出来る</color>
+<color=#77FFFF>-精神感応性が無い</color>
+<color=#77FFFF>-斬撃への高い耐性を持つ</color>
+<color=#77FFFF>-医療行為と料理作業への適性を持つ</color>
+<color=#77FFFF>-死体を解体してもペナルティを受けず、死体を食べても人肉扱いではない</color>
+<color=#77FFFF>-Ideorogy導入時、奴隷状態の時に脱走しない</color>
+<color=#77FFFF>-人間の武器が装備可能</color>
+
+<color=#FF7777>-暑さにものすごく弱い</color>
+<color=#FF7777>-燃えやすい</color>
+<color=#FF7777>-チョコレート系のアイテムしか食べられない</color>
+<color=#FF7777>-死体を解体してもチョコレートしか得られない</color>
+<color=#FF7777>-熱中症を発症、もしくは炎上すると急速的に溶けていく</color>
+<color=#FF7777>この問題は研究を進めることで開放できる要素である程度改善可能です。</color>
+
+<color=#77FFFF><size=20>＊その他、このMODで追加されるもの</size></color>
+-スウィーティの研究が追加されます。
+-スウィーティの衣装と武器を追加します。
+-動物に魔法のチョコレートを食べさせることで、ビタードラゴンに変化します。
+スウィーティと同じく高温や炎に弱いです。
+
+]]></description>
+</ModMetaData>

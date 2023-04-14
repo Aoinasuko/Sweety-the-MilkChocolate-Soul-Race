@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>Sweety_HeatResistMod</defName>
+    <label>HeatResist Mod</label>
+    <description>Heat resistant modification to Sweety.</description>
+    <workerClass>Sweety_Race.Recipe_HeatMod</workerClass>
+    <jobString>Modding.</jobString>
+    <workAmount>300</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <targetsBodyPart>false</targetsBodyPart>
+    <surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineUltratech</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineUltratech</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>Sweety_HeatResistMod</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

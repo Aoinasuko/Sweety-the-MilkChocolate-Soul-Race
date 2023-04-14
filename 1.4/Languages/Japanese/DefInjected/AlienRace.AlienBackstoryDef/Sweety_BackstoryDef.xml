@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Sweety_Child_A.title>スウィーティ</Sweety_Child_A.title>
+  <Sweety_Child_A.titleShort>スウィーティ</Sweety_Child_A.titleShort>
+  <Sweety_Child_A.baseDesc>[PAWN_nameDef]はチョコレートミルクで出来たスウィーティです.\n他の生物から変異しており,変異前の記憶は失っています.</Sweety_Child_A.baseDesc>
+
+  <Sweety_Wild_Ex.title>スウィーティ</Sweety_Wild_Ex.title>
+  <Sweety_Wild_Ex.titleShort>スウィーティ</Sweety_Wild_Ex.titleShort>
+  <Sweety_Wild_Ex.baseDesc>[PAWN_nameDef]はチョコレートミルクで出来たスウィーティです.</Sweety_Wild_Ex.baseDesc>
+
+  <Sweety_Child_B.title>異種配合のスウィーティ</Sweety_Child_B.title>
+  <Sweety_Child_B.titleShort>異種配合</Sweety_Child_B.titleShort>
+  <Sweety_Child_B.baseDesc>稀に,異種族との配合でスウィーティが産まれることがあります.\n[PAWN_nameDef]は異種配合によって産まれたスウィーティです.</Sweety_Child_B.baseDesc>
+
+  <Sweety_Child_C.title>作られたスウィーティ</Sweety_Child_C.title>
+  <Sweety_Child_C.titleShort>作られた</Sweety_Child_C.titleShort>
+  <Sweety_Child_C.baseDesc>[PAWN_nameDef]は異種族に使えるスウィーティを作るための工場で産まれたスウィーティです.</Sweety_Child_C.baseDesc>
+
+  <Sweety_Wild_A.title>元ペットのスウィーティ</Sweety_Wild_A.title>
+  <Sweety_Wild_A.titleShort>元ペット</Sweety_Wild_A.titleShort>
+  <Sweety_Wild_A.baseDesc>[PAWN_nameDef]はもともと飼われていたスウィーティでした.\nしかしある日飼い主がヒットマンに殺されてしまい,最終的に彼女は家を追い出されました.</Sweety_Wild_A.baseDesc>
+
+  <Sweety_Wild_B.title>元ペットのスウィーティ</Sweety_Wild_B.title>
+  <Sweety_Wild_B.titleShort>元ペット</Sweety_Wild_B.titleShort>
+  <Sweety_Wild_B.baseDesc>[PAWN_nameDef]はもともと飼われていたスウィーティでした.\n幸せな生活を贈っていましたが,彼女の飼い主は寿命によって亡くなってしまいました.</Sweety_Wild_B.baseDesc>
+
+  <Sweety_Wild_C.title>ボランティアスウィーティ</Sweety_Wild_C.title>
+  <Sweety_Wild_C.titleShort>ボランティア</Sweety_Wild_C.titleShort>
+  <Sweety_Wild_C.baseDesc>[PAWN_nameDef]はあるボランティア組織に所属し,恵まれない異種族の子どもたちの元へ赴き彼女のチョコレートミルクを分け与えていました.</Sweety_Wild_C.baseDesc>
+
+  <Sweety_Wild_D.title>軍事スウィーティ</Sweety_Wild_D.title>
+  <Sweety_Wild_D.titleShort>軍事</Sweety_Wild_D.titleShort>
+  <Sweety_Wild_D.baseDesc>[PAWN_nameDef]はある軍事組織にB.E.P&#160;Fairy&#160;Techから買収され,兵士のためにチョコレートミルクケーキを作る作業を行っていました.</Sweety_Wild_D.baseDesc>
+
+</LanguageData>

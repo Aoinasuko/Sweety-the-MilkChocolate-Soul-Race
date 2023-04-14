@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.AlienBackstoryDef Name="Sweety_BaseBackStory" Abstract="True">
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Sweety_BaseBackStory">
+		<defName>Sweety_Child_A</defName>
+		<title>Sweety</title>
+		<titleShort>Sweety</titleShort>
+		<baseDesc>It is a sweety made of chocolate.\nPerhaps it was a different creature before, but its memory is lost.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Sweety_BackStory</li>
+			<li>Sweety_Change</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Sweety_BaseBackStory">
+		<defName>Sweety_Wild_Ex</defName>
+		<title>Sweety</title>
+		<titleShort>Sweety</titleShort>
+		<baseDesc>It is a creature transformed into Sweety by chocolate.</baseDesc>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>Sweety_Change</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Sweety_BaseBackStory">
+		<defName>Sweety_Child_B</defName>
+		<title>Crossbreed Sweety</title>
+		<titleShort>Crossbreed</titleShort>
+		<baseDesc>In extremely rare cases, crossbreeding with a different species can produce a child Sweety.\nShe was born as such a rare Sweety.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Sweety_BackStory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Sweety_BaseBackStory">
+		<defName>Sweety_Child_C</defName>
+		<title>Maker Sweety</title>
+		<titleShort>Maker</titleShort>
+		<baseDesc>She was made by a company with Sweety technology.\nBut for some unknown reason, the company's manufacturing plant was destroyed and she fled the scene.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Sweety_BackStory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Sweety_BaseBackStory">
+		<defName>Sweety_Wild_A</defName>
+		<title>housed Sweety</title>
+		<titleShort>housed</titleShort>
+		<baseDesc>[PAWN_nameDef] is Sweety, once housed by humans. However, the person who had Sweety was killed by an assassin.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Sweety_BackStory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Sweety_BaseBackStory">
+		<defName>Sweety_Wild_B</defName>
+		<title>housed Sweety</title>
+		<titleShort>housed</titleShort>
+		<baseDesc>[PAWN_nameDef] is Sweety, once housed by humans. Although Sweety was given the gift of a happy life, the human who owned her passed away due to life expectancy.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Sweety_BackStory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Sweety_BaseBackStory">
+		<defName>Sweety_Wild_C</defName>
+		<title>volunteer Sweety</title>
+		<titleShort>volunteer</titleShort>
+		<baseDesc>[PAWN_nameDef] used to share his chocolate milk with underprivileged children of different races. This experience made her a sociable personality.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Sweety_BackStory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Sweety_BaseBackStory">
+		<defName>Sweety_Wild_D</defName>
+		<title>military Sweety</title>
+		<titleShort>military</titleShort>
+		<baseDesc>[PAWN_nameDef] is a Sweety bought as food for one army from B.E.P Fairy Tech. solely working on turning chocolate milk into cakes.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Sweety_BackStory</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+</Defs>

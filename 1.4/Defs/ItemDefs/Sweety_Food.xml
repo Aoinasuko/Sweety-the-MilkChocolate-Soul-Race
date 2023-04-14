@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>Sweety_ChocoMilk</defName>
+    <label>Sweety Choco Milk</label>
+    <description>Choco Milk from an Sweety. Like chocolate, it can be used for entertainment, but you can also make a chocolate cake by collecting this.</description>
+    <graphicData>
+      <texPath>Sweety/Thing/Milk</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>25.5</MarketValue>
+      <Mass>0.035</Mass>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Nutrition>0.25</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <foodType>Processed, Fluid</foodType>
+      <joy>0.05</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>Sweety_ChocoMilk_Cake</defName>
+    <label>Sweety Choco Milk Cake</label>
+    <description>It's an awesome, delicious, sugar-laden chocolate milk cake made from chocolate chips and tons of chocolate milk. Unless you're a life form with a large stomach, one of these will give you enough energy for several days of activity.</description>
+    <graphicData>
+      <texPath>Sweety/Thing/Cake/Cake</texPath>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <costList>
+      <Sweety_ChocoMilk>15</Sweety_ChocoMilk>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <workAmount>800</workAmount>
+      <workSkill>Cooking</workSkill>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <recipeUsers>
+        <li>ElectricStove</li>
+        <li>FueledStove</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Cooking>5</Cooking>
+      </skillRequirements>
+      <researchPrerequisite>Sweety_Knowledge</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>300</MarketValue>
+      <Mass>1.5</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+      <Nutrition>3.0</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed</foodType>
+      <joy>1.5</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+      <outcomeDoers>
+            <li Class="Sweety_Race.IngestionOutcomeDoer_ChocoCake">
+            </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>Sweety_MagicChocolate</defName>
+    <label>Sweety Magic Chocolate</label>
+    <description>&lt;color=#FF5555&gt;This food causes irreversible changes in colonists and animals. I recommend that you do not feed it to important characters.&lt;/color&gt;\n\nA company once developed this "magic chocolate" to increase the number of obedient Sweety as employees.\nOnce eaten, the original consciousness of the creature is lost and it is reborn as a new Sweety.\nIf eaten by a less clever animal, it turns into a BitterDragon.</description>
+    <graphicData>
+      <texPath>Sweety/Thing/MagicChoco/MagicChoco</texPath>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <costList>
+      <Chocolate>30</Chocolate>
+      <MedicineUltratech>3</MedicineUltratech>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <workAmount>4000</workAmount>
+      <workSkill>Cooking</workSkill>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <recipeUsers>
+        <li>ElectricStove</li>
+        <li>FueledStove</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Cooking>5</Cooking>
+      </skillRequirements>
+      <researchPrerequisite>Cocoa</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>800</MarketValue>
+      <Mass>0.5</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+      <Nutrition>1.0</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+      <outcomeDoers>
+            <li Class="Sweety_Race.IngestionOutcomeDoer_Choco">
+            </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+
+</Defs>

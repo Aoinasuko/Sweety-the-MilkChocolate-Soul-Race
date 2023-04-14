@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Sweety_Knowledge.label>知識</Sweety_Knowledge.label>
+  <Sweety_Knowledge.description>スウィーティの知識を学び,スウィーティのアイテムを作成できるようにします.</Sweety_Knowledge.description>
+
+  <Sweety_Cocoaplanter.label>カカオプランター</Sweety_Cocoaplanter.label>
+  <Sweety_Cocoaplanter.description>水耕栽培器で栽培できる小型カカオの知識を得ます.</Sweety_Cocoaplanter.description>
+
+  <Sweety_ChocolatePolymorph.label>チョコレート変化</Sweety_ChocolatePolymorph.label>
+  <Sweety_ChocolatePolymorph.description>スウィーティ専用の,敵を液状のチョコレートに溶かす銃を作成できるようになります.</Sweety_ChocolatePolymorph.description>
+
+  <Sweety_Costumes.label>衣装</Sweety_Costumes.label>
+  <Sweety_Costumes.description>スウィーティの衣装を作成できるようになります.</Sweety_Costumes.description>
+
+  <Sweety_CoolerSuit.label>クーラースーツ</Sweety_CoolerSuit.label>
+  <Sweety_CoolerSuit.description>優秀な遮熱性を持つ,クーラースーツを作成できるようになります.</Sweety_CoolerSuit.description>
+
+  <Sweety_HeatResistMod.label>耐熱改造</Sweety_HeatResistMod.label>
+  <Sweety_HeatResistMod.description>スウィーティに耐熱改造を施し,高温下でも活動出来るようになる手術の方法を学びます.</Sweety_HeatResistMod.description>
+
+
+</LanguageData>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<PawnKindDef>
+		<defName>Sweety_Visitor</defName>
+		<label>Sweety Visitor</label>
+		<isFighter>false</isFighter>
+		<combatPower>60</combatPower>
+		<itemQuality>Normal</itemQuality>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>false</forceNormalGearQuality>
+		<race>Sweety_Pawn</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Sweety_Change</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<styleItemTags>
+			<li>
+				<tag>Sweety</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+		<apparelTags>
+			<li>Sweety_Apparel</li>
+		</apparelTags>
+		<apparelMoney>0~1000</apparelMoney>
+		<minGenerationAge>10</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
+		<defaultFactionType>Sweety_WildSweety</defaultFactionType>
+	</PawnKindDef>
+	
+	<PawnKindDef>
+		<defName>Sweety_Slave</defName>
+		<label>Sweety Slave</label>
+		<isFighter>false</isFighter>
+		<combatPower>60</combatPower>
+		<itemQuality>Normal</itemQuality>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>false</forceNormalGearQuality>
+		<race>Sweety_Pawn</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Sweety_BackStory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<styleItemTags>
+			<li>
+				<tag>Sweety</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+		<apparelTags>
+			<li>Sweety_Apparel_Slave</li>
+		</apparelTags>
+		<apparelMoney>0~1000</apparelMoney>
+		<minGenerationAge>10</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
+		<defaultFactionType>Sweety_WildSweety</defaultFactionType>
+	</PawnKindDef>
+	
+</Defs>
