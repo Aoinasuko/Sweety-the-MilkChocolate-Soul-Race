@@ -6,8 +6,9 @@
 	<label>Sweety CoolerSuit</label>
 	<description>Swimsuit for Sweety with a built-in cooling system.\nIt protects Sweety from some degree of heat.</description>
 	<graphicData>
-		<texPath>BEPFT_Cloth/SwimSuit/SwimSuit</texPath>
+		<texPath>BEPRaceCore/Apparel/ApparelBox/ApparelBox</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
 	</graphicData>
 	<techLevel>Industrial</techLevel>
 	<costList>
@@ -26,11 +27,11 @@
 		</skillRequirements>
 	</recipeMaker>
 	<thingCategories>
-		<li>Sweety_Apparel</li>
+		<li>BEP_Apparel</li>
 	</thingCategories>
 	<statBases>
 		<MaxHitPoints>200</MaxHitPoints>
-		<WorkToMake>8000</WorkToMake>
+		<WorkToMake>15000</WorkToMake>
 		<Mass>0.8</Mass>
 		<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
 		<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
@@ -45,7 +46,7 @@
 		<bodyPartGroups>
 			<li>Torso</li>
 		</bodyPartGroups>
-		<wornGraphicPath>BEPFT_Cloth/SwimSuit/SwimSuit</wornGraphicPath>
+		<wornGraphicPath>BEPRaceCore/Apparel/SwimSuit/SwimSuit</wornGraphicPath>
 		<layers>
 			<li>Middle</li>
 		</layers>
@@ -54,6 +55,7 @@
 		</tags>
 		<defaultOutfitTags>
 			<li>Worker</li>
+			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
 	<colorGenerator Class="ColorGenerator_Options">

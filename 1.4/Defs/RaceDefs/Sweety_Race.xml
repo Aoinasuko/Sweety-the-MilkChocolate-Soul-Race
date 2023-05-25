@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+	<AlienRace.ThingDef_AlienRace Tag="BEPRace" ParentName="BasePawn">
 		<defName>Sweety_Pawn</defName>
 		<label>Sweety</label>
 		<description>Sweety is a creature that is born when it eats B.E.P&#160;Fairy&#160;Tech's "magic chocolate" and takes over the creature's body. In the past, before the space war, B.E.P&#160;Fairy&#160;Tech used to serve "magic chocolate" to foolish humans and brainwash them into becoming Sweety to increase the number of "employees". Now that B.E.P&#160;Fairy&#160;Tech has been destroyed, new Sweety are no longer artificially created, but there are still many rare accidents where people eat the "magic chocolate" and are transformed into Sweety.\n\nThey basically do not die, no matter how much they are hurt. However, they are very sensitive to heat, and in hot places their bodies gradually melt and eventually evaporate.\n\nThey produce a very tasty chocolate milk.\n\n&lt;color=#FF5555&gt;They can only eat chocolate, or something chocolate-like.&lt;/color&gt;</description>
@@ -66,7 +66,7 @@
 						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 					</bodyTypes>
-					<headOffset>(-0.1, -0.186)</headOffset>
+					<headOffset>(-0.1, -0.26)</headOffset>
 					<customDrawSize>(1, 1)</customDrawSize>
 					<customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
 					<colorChannels>
@@ -150,38 +150,17 @@
 					</colorChannels>
 					<bodyAddons>
 						<li>
-							<path>Sweety/Race/Horn/Horn</path>
+							<path>BEPRaceCore/Race/TwinHorn/TwinHorn</path>
 							<bodyPart>Horn</bodyPart>
+							<alignWithHead>true</alignWithHead>
 							<inFrontOfBody>true</inFrontOfBody>
 							<drawSize>1</drawSize>
 							<colorChannel>wing</colorChannel>
 							<drawnInBed>true</drawnInBed>
 							<drawnDesiccated>false</drawnDesiccated>
-							<offsets>
-								<west>
-									<bodyTypes>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.02,-0.07)</Baby>
-									</bodyTypes>
-								</west>
-								<south>
-									<bodyTypes>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,-0.04)</Baby>
-									</bodyTypes>
-								</south>
-								<north>
-									<bodyTypes>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,-0.04)</Baby>
-									</bodyTypes>
-								</north>
-								<east>
-									<bodyTypes>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.02,-0.07)</Baby>
-									</bodyTypes>
-								</east>
-							</offsets>
 						</li>
 						<li>
-							<path>Sweety/Race/Wing/Wing</path>
+							<path>BEPRaceCore/Race/SweetyWing/SweetyWing</path>
 							<bodyPart>Sweety_Wing</bodyPart>
 							<inFrontOfBody>false</inFrontOfBody>
 							<drawSize>1</drawSize>
@@ -190,13 +169,21 @@
 							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 						<li>
-							<path>Sweety/Race/Tail/Tail</path>
+							<path>BEPRaceCore/Race/SweetyTail/SweetyTail</path>
 							<bodyPart>Sweety_Tail</bodyPart>
 							<inFrontOfBody>false</inFrontOfBody>
 							<drawSize>1</drawSize>
 							<colorChannel>skin</colorChannel>
 							<drawnInBed>false</drawnInBed>
 							<drawnDesiccated>false</drawnDesiccated>
+							<offsets>
+								<east>
+									<bodyTypes>
+										<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.05,0)</Baby>
+										<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.05,0)</Child>
+									</bodyTypes>
+								</east>
+							</offsets>
 						</li>
 					</bodyAddons>
 				</alienPartGenerator>
@@ -227,21 +214,12 @@
 				</growthAges>
 			</generalSettings>
 			<graphicPaths>
-				<head>
-					<path>Sweety/Race/Head/Average_Normal</path>
-					<headtypeGraphics>
-						<Male_AverageNormal>Sweety/Race/Head/Average_Normal</Male_AverageNormal>
-						<Female_AverageNormal>Sweety/Race/Head/Average_Normal</Female_AverageNormal>
-					</headtypeGraphics>
-				</head>
-				<body>
-					<path>Sweety/Race/Body/</path>
-				</body>
-				<skeleton>Sweety/Race/Bone/Bone</skeleton>
-				<skull>Sweety/Race/HeadBone/HeadBone</skull>
-				<apparel>
-					<!-- Apparel Graphics options go here -->
-				</apparel>
+				<head>BEPRaceCore/Race/Head/Average_Normal</head>
+				<body>BEPRaceCore/Race/Body/Normal/</body>
+				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
+				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
+				<skinShader>Cutout</skinShader>
+				<skinColor>(1,1,1,1)</skinColor>
 			</graphicPaths>
 			<relationSettings>
 				<relationChanceModifierLover>0</relationChanceModifierLover>
@@ -258,6 +236,8 @@
 				<onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
 				<whiteFoodList>
 					<li>Chocolate</li>
+					<li>Sweety_ChocoMilk</li>
+					<li>Sweety_ChocoMilk_Cake</li>
 					<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_Mintchoco</li>
 					<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_BluePolarBear</li>
 					<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_PinkFallInLove</li>
@@ -269,17 +249,6 @@
 					<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_MintchocoLatte</li>
 				</whiteFoodList>
 				<apparelList>
-					<li>Sweety_SimpleCloth</li>
-					<li>Sweety_SimpleCollor</li>
-					<li>Sweety_SlaveStrap</li>
-					<li>Sweety_BlindfoldandGag</li>
-					<li>Sweety_Blindfold</li>
-					<li>Sweety_SimpleArmor</li>
-					<li>Sweety_MaidBand</li>
-					<li>Sweety_MaidCloth</li>
-					<li>Sweety_NobleCloth</li>
-					<li>Sweety_NobleCape</li>
-					<li>Sweety_SwimSuit</li>
 					<li>Sweety_CoolerSuit</li>
 				</apparelList>
 				<weaponList>
@@ -336,7 +305,7 @@
 					<value>
 						<hasStyle>true</hasStyle>
 						<styleTagsOverride>
-							<li>Sweety</li>
+							<li>BEPRace</li>
 						</styleTagsOverride>
 					</value>
 				</li>
@@ -554,6 +523,15 @@
 		<recipes>
 			<li>Sweety_HeatResistMod</li>
 		</recipes>
+		<modExtensions>
+			<li Class="BEPRace_Core.BEPRace_Setting">
+				<ignoreDead>false</ignoreDead>
+				<fleeMeat>true</fleeMeat>
+				<ignoreAge>true</ignoreAge>
+				<ignoreFlee>true</ignoreFlee>
+				<slaveWorkSpeed>1.0</slaveWorkSpeed>
+			</li>
+		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
 	
 	<LifeStageDef>

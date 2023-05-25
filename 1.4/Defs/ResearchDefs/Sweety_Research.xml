@@ -54,22 +54,6 @@
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
-	    <defName>Sweety_Costumes</defName>
-	    <label>Costumes</label>
-	    <description>It will allow you to create Sweety outfits.</description>
-	    <baseCost>500</baseCost>
-	    <techLevel>Medieval</techLevel>
-	    <tab>
-	      <li>Sweety_Research</li>
-	    </tab>
-	    <prerequisites>
-	      <li>Sweety_Knowledge</li>
-	    </prerequisites>
-	    <researchViewX>1</researchViewX>
-	    <researchViewY>5</researchViewY>
-	</ResearchProjectDef>
-	
-	<ResearchProjectDef>
 	    <defName>Sweety_CoolerSuit</defName>
 	    <label>Cooler Suit</label>
 	    <description>You will be able to create a cooler suit, protecting Sweety from the heat.</description>
@@ -79,9 +63,9 @@
 	      <li>Sweety_Research</li>
 	    </tab>
 	    <prerequisites>
-	      <li>Sweety_Costumes</li>
+	      <li>Sweety_Knowledge</li>
 	    </prerequisites>
-	    <researchViewX>2</researchViewX>
+	    <researchViewX>1</researchViewX>
 	    <researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 	
@@ -97,7 +81,7 @@
 	    <prerequisites>
 	      <li>Sweety_CoolerSuit</li>
 	    </prerequisites>
-	    <researchViewX>3</researchViewX>
+	    <researchViewX>2</researchViewX>
 	    <researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 	
