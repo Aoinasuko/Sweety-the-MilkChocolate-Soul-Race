@@ -34,7 +34,7 @@
     <settlementTexturePath>Sweety/UI/Faction</settlementTexturePath>
     <xenotypeSet>
       <xenotypeChances>
-        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+        <Sweety_Sweety MayRequire="Ludeon.RimWorld.Biotech">1.0</Sweety_Sweety>
       </xenotypeChances>
     </xenotypeSet>
     <modExtensions>

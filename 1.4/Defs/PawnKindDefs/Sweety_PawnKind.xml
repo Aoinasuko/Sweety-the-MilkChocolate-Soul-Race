@@ -5,7 +5,7 @@
 		<defName>Sweety_Visitor</defName>
 		<label>Sweety Visitor</label>
 		<isFighter>false</isFighter>
-		<combatPower>60</combatPower>
+		<combatPower>70</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
@@ -35,13 +35,19 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>7~12</initialResistanceRange>
 		<defaultFactionType>Sweety_WildSweety</defaultFactionType>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Sweety_Sweety MayRequire="Ludeon.RimWorld.Biotech">999</Sweety_Sweety>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
 	</PawnKindDef>
 	
 	<PawnKindDef>
 		<defName>Sweety_Slave</defName>
 		<label>Sweety Slave</label>
 		<isFighter>false</isFighter>
-		<combatPower>60</combatPower>
+		<combatPower>70</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
@@ -71,6 +77,12 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>7~12</initialResistanceRange>
 		<defaultFactionType>Sweety_WildSweety</defaultFactionType>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Sweety_Sweety MayRequire="Ludeon.RimWorld.Biotech">999</Sweety_Sweety>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
 	</PawnKindDef>
 	
 </Defs>

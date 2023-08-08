@@ -29,7 +29,7 @@ namespace Sweety_Race
 	public class Sweety_Config : ModSettings
 	{
 		// バージョン
-		public static int ver = 200;
+		public static int ver = 210;
 
 		// アップデートバージョン
 		public static int Updatever = 0;

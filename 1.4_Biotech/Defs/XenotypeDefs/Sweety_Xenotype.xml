@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>Sweety_Sweety</defName>
+    <label>Sweety</label>
+    <description>It is a basic Sweety.</description>
+    <iconPath>BEPRaceCore/UI/Race/BEPRace</iconPath>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>BEP_BrilliancePower</li>
+      <li>BEP_Brilliance_Awakening</li>
+      <li>Superclotting</li>
+      <li>AptitudeTerrible_Mining</li>
+      <li>AptitudeRemarkable_Cooking</li>
+      <li>AptitudeTerrible_Artistic</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>
