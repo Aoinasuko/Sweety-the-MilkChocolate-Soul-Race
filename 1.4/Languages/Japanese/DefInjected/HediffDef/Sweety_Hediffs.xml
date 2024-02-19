@@ -14,8 +14,22 @@
   <Sweety_HeatResist.label>耐熱</Sweety_HeatResist.label>
   <Sweety_HeatResist.description>しばらく熱中症によって体が溶けなくなります.\n(登場後に一時的に与えられる保護)</Sweety_HeatResist.description>
 
-  <Sweety_AteCake.label>チョコレートミルクケーキ</Sweety_AteCake.label>
-  <Sweety_AteCake.description>美味しいチョコレートミルクケーキを食べて,空腹の減少が抑えられた状態です.</Sweety_AteCake.description>
+  <Sweety_AteCake.label>満腹感</Sweety_AteCake.label>
+  <Sweety_AteCake.description>おいしいデザートを食べて,空腹の減少が抑えられた状態です.</Sweety_AteCake.description>
 
+  <Sweety_CoolBody.label>クールボディ</Sweety_CoolBody.label>
+  <Sweety_CoolBody.description>冷たいパフェを食べて,少しだけ暑さが平気になっています.</Sweety_CoolBody.description>
+
+  <Sweety_CoolMix.label>クールミックス</Sweety_CoolMix.label>
+  <Sweety_CoolMix.description>特別なチョコレートパフェを食べて,特別な効果を得ている状態です.</Sweety_CoolMix.description>
+
+  <Sweety_LoveMix.label>ラブミックス</Sweety_LoveMix.label>
+  <Sweety_LoveMix.description>特別なチョコレートパフェを食べて,特別な効果を得ている状態です.</Sweety_LoveMix.description>
+
+  <Sweety_BattleMix.label>バトルミックス</Sweety_BattleMix.label>
+  <Sweety_BattleMix.description>特別なチョコレートパフェを食べて,特別な効果を得ている状態です.</Sweety_BattleMix.description>
+
+  <Sweety_MilkMix.label>ミルクミックス</Sweety_MilkMix.label>
+  <Sweety_MilkMix.description>特別なチョコレートパフェを食べて,特別な効果を得ている状態です.</Sweety_MilkMix.description>
 
 </LanguageData>

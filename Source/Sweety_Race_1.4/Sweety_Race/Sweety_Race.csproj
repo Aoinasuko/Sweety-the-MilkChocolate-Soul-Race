@@ -83,6 +83,7 @@
     <Compile Include="Sweety_Harmony.cs" />
     <Compile Include="Sweety_WorldComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Thing\IngestionOutcomeDoer_Parfait.cs" />
     <Compile Include="Thing\IngestionOutcomeDoer_Choco.cs" />
     <Compile Include="Thing\Sweety_Comp.cs" />
     <Compile Include="Thing\Sweety_MeltBullet.cs" />

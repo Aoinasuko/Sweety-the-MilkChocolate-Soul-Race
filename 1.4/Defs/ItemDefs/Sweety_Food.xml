@@ -73,7 +73,7 @@
       <Mass>1.5</Mass>
       <Flammability>0.2</Flammability>
       <DeteriorationRate>4</DeteriorationRate>
-      <Nutrition>3.0</Nutrition>
+      <Nutrition>2.0</Nutrition>
     </statBases>
     <thingCategories>
       <li>Foods</li>
@@ -81,7 +81,7 @@
     <ingestible>
       <preferability>DesperateOnly</preferability>
       <foodType>Processed</foodType>
-      <joy>1.5</joy>
+      <joy>1.0</joy>
       <joyKind>Gluttonous</joyKind>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <ingestSound>Meal_Eat</ingestSound>
@@ -90,6 +90,9 @@
             </li>
       </outcomeDoers>
     </ingestible>
+    <descriptionHyperlinks>
+      <HediffDef>Sweety_AteCake</HediffDef>
+    </descriptionHyperlinks>
   </ThingDef>
 
   <ThingDef ParentName="OrganicProductBase">

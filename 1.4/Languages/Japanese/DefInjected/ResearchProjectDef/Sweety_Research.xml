@@ -10,6 +10,12 @@
   <Sweety_ChocolatePolymorph.label>チョコレート変化</Sweety_ChocolatePolymorph.label>
   <Sweety_ChocolatePolymorph.description>スウィーティ専用の,敵を液状のチョコレートに溶かす銃を作成できるようになります.</Sweety_ChocolatePolymorph.description>
 
+  <Sweety_TasteAndBeauty.label>美味しさと美しさ</Sweety_TasteAndBeauty.label>
+  <Sweety_TasteAndBeauty.description>派閥へのギフトに使えるチョコレートパフェを作成できるようになります. 手間は非常にかかりますが,派閥との友好関係を1つで大きく改善することが出来ます.</Sweety_TasteAndBeauty.description>
+
+  <Sweety_ColdFun.label>冷たいお楽しみ</Sweety_ColdFun.label>
+  <Sweety_ColdFun.description>おいしいチョコレートアイスパフェを作れるようになります. 作成に手間は掛りますが,より娯楽を満たしやすくなりさらに暑さに強くなります.</Sweety_ColdFun.description>
+
   <Sweety_CoolerSuit.label>クーラースーツ</Sweety_CoolerSuit.label>
   <Sweety_CoolerSuit.description>優秀な遮熱性を持つ,クーラースーツを作成できるようになります.</Sweety_CoolerSuit.description>
 

@@ -124,6 +124,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <descriptionHyperlinks>
+      <HediffDef>Sweety_Melt</HediffDef>
+    </descriptionHyperlinks>
   </ThingDef>
   <ThingDef ParentName="Sweety_BaseProjectile">
     <defName>Sweety_MeltBullet</defName>

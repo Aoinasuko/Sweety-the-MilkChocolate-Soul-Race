@@ -212,6 +212,13 @@
 					<li>3</li>
 					<li>5</li>
 				</growthAges>
+				<growthFactorByAge>
+					<points>
+						<li>(0,5)</li>
+						<li>(3,3)</li>
+						<li>(5,1)</li>
+					</points>
+				</growthFactorByAge>
 			</generalSettings>
 			<graphicPaths>
 				<head>BEPRaceCore/Race/Head/Average_Normal</head>
@@ -247,6 +254,11 @@
 					<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_MintchocoDonut</li>
 					<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_MintchocoHalfGallon</li>
 					<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_MintchocoLatte</li>
+					<li>Sweety_ChocoMilkIce_Parfait</li>
+					<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Sweety_MinchoIce_Parfait_A</li>
+					<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Sweety_MinchoIce_Parfait_B</li>
+					<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Sweety_MinchoIce_Parfait_C</li>
+					<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Sweety_MinchoIce_Parfait_D</li>
 				</whiteFoodList>
 				<apparelList>
 					<li>Sweety_CoolerSuit</li>

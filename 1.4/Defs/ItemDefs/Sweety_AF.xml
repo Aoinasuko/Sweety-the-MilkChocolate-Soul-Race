@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <thingClass>ThingWithComps</thingClass>
+    <defName>Sweety_GorgeousChocolateParfait</defName>
+    <label>Sweety Gorgeous Chocolate Parfait</label>
+    <description>It is a piece of greed, using as a parfait glass the amount of gold that could be used to make a sculpture. The only time this would be possible is if you wanted to give it as a gift to a very important faction, or if you wanted to show off your numerous riches.\n\nIt is a piece of greed, using as a parfait glass the amount of gold that could be used to make a sculpture. The only time this would be possible is if you wanted to give it as a gift to a very important faction, or if you wanted to show off your numerous riches. Therefore, if you send this parfait to another faction instead of trading it, you will greatly increase your friendship level.</description>
+    <graphicData>
+      <texPath>Sweety/Thing/GoldParfait/GoldParfait</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MarketValue>100</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <techLevel>Industrial</techLevel>
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+    <costList>
+      <Gold>500</Gold>
+      <Sweety_ChocoMilk>20</Sweety_ChocoMilk>
+      <Chocolate>50</Chocolate>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricStove</li>
+        <li>FueledStove</li>
+      </recipeUsers>
+      <researchPrerequisite>Sweety_TasteAndBeauty</researchPrerequisite>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+    </recipeMaker>
+    <comps>
+    </comps>
+  </ThingDef>
+
+</Defs>

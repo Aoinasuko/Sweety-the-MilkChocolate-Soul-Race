@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="Sweety_Parfait" ParentName="OrganicProductBase" Abstract="True">
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <recipeMaker>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <recipeUsers>
+        <li>ElectricStove</li>
+        <li>FueledStove</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Cooking>10</Cooking>
+      </skillRequirements>
+      <researchPrerequisite>Sweety_ColdFun</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>500</MarketValue>
+      <Mass>2.0</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+      <Nutrition>3.0</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed</foodType>
+      <joy>1.5</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+      <outcomeDoers>
+        <!-- チョコレートパフェバフ付与 -->
+        <li Class="Sweety_Race.IngestionOutcomeDoer_Parfait">
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <descriptionHyperlinks>
+      <HediffDef>Sweety_AteCake</HediffDef>
+      <HediffDef>Sweety_CoolBody</HediffDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+  
+  <ThingDef ParentName="Sweety_Parfait">
+    <defName>Sweety_ChocoMilkIce_Parfait</defName>
+    <label>Sweety ChocoMilkIce Parfait</label>
+    <description>This super high-calorie chocolate milk ice cream parfait is made with generous amounts of chocolate and chocolate milk. You will certainly be satisfied.</description>
+    <graphicData>
+      <texPath>Sweety/Thing/IceCreamParfait/Parfait_Choco</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Sweety_ChocoMilk>20</Sweety_ChocoMilk>
+      <Chocolate>40</Chocolate>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="Sweety_Parfait" MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">
+    <defName>Sweety_MinchoIce_Parfait_A</defName>
+    <label>Sweety MinchoIce Parfait(Cool Mix)</label>
+    <description>This parfait is filled with mint chocolate and milk chocolate ice cream. Cute miniatures of Mincho and Sweety are on top as decorations. Depending on the main flavor, a variety of effects can be achieved.</description>
+    <graphicData>
+      <texPath>Sweety/Thing/IceCreamParfait/Parfait_Mincho_A</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <ingestible>
+      <joy>2.0</joy>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <outcomeDoers>
+        <!-- ミンチョバフ付与 -->
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Mincho_Mintchoco_High</hediffDef>
+          <severity>0.20</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Sweety_CoolMix</hediffDef>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <statBases>
+      <MarketValue>750</MarketValue>
+    </statBases>
+    <costList>
+      <Sweety_ChocoMilk>20</Sweety_ChocoMilk>
+      <Chocolate>30</Chocolate>
+      <Mincho_Mintchoco>30</Mincho_Mintchoco>
+    </costList>
+    <descriptionHyperlinks>
+      <HediffDef>Mincho_Mintchoco_High</HediffDef>
+      <HediffDef>Sweety_CoolMix</HediffDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="Sweety_Parfait" MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">
+    <defName>Sweety_MinchoIce_Parfait_B</defName>
+    <label>Sweety MinchoIce Parfait(Love Mix)</label>
+    <description>This parfait is filled with mint chocolate and milk chocolate ice cream. Cute miniatures of Mincho and Sweety are on top as decorations. Depending on the main flavor, a variety of effects can be achieved.</description>
+    <graphicData>
+      <texPath>Sweety/Thing/IceCreamParfait/Parfait_Mincho_B</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <ingestible>
+      <joy>2.0</joy>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <outcomeDoers>
+        <!-- ミンチョバフ付与 -->
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Mincho_PinkFallInLove_High</hediffDef>
+          <severity>0.20</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Sweety_LoveMix</hediffDef>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <statBases>
+      <MarketValue>750</MarketValue>
+    </statBases>
+    <costList>
+      <Sweety_ChocoMilk>20</Sweety_ChocoMilk>
+      <Chocolate>30</Chocolate>
+      <Mincho_PinkFallInLove>30</Mincho_PinkFallInLove>
+    </costList>
+    <descriptionHyperlinks>
+      <HediffDef>Mincho_PinkFallInLove_High</HediffDef>
+      <HediffDef>Sweety_LoveMix</HediffDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="Sweety_Parfait" MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">
+    <defName>Sweety_MinchoIce_Parfait_C</defName>
+    <label>Sweety MinchoIce Parfait(Battle Mix)</label>
+    <description>This parfait is filled with mint chocolate and milk chocolate ice cream. Cute miniatures of Mincho and Sweety are on top as decorations. Depending on the main flavor, a variety of effects can be achieved.</description>
+    <graphicData>
+      <texPath>Sweety/Thing/IceCreamParfait/Parfait_Mincho_C</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <ingestible>
+      <joy>2.0</joy>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <outcomeDoers>
+        <!-- ミンチョバフ付与 -->
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Mincho_BluePolarBear_High</hediffDef>
+          <severity>0.20</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Sweety_BattleMix</hediffDef>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <statBases>
+      <MarketValue>750</MarketValue>
+    </statBases>
+    <costList>
+      <Sweety_ChocoMilk>20</Sweety_ChocoMilk>
+      <Chocolate>30</Chocolate>
+      <Mincho_BluePolarBear>30</Mincho_BluePolarBear>
+    </costList>
+    <descriptionHyperlinks>
+      <HediffDef>Mincho_BluePolarBear_High</HediffDef>
+      <HediffDef>Sweety_BattleMix</HediffDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="Sweety_Parfait" MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">
+    <defName>Sweety_MinchoIce_Parfait_D</defName>
+    <label>Sweety MinchoIce Parfait(Milk Mix)</label>
+    <description>This parfait is filled with mint chocolate and milk chocolate ice cream. Cute miniatures of Mincho and Sweety are on top as decorations. Depending on the main flavor, a variety of effects can be achieved.</description>
+    <graphicData>
+      <texPath>Sweety/Thing/IceCreamParfait/Parfait_Mincho_D</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <ingestible>
+      <joy>2.0</joy>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Sweety_MilkMix</hediffDef>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <statBases>
+      <MarketValue>750</MarketValue>
+    </statBases>
+    <costList>
+      <Sweety_ChocoMilk>20</Sweety_ChocoMilk>
+      <Chocolate>50</Chocolate>
+      <Mincho_Mintchoco>10</Mincho_Mintchoco>
+    </costList>
+    <descriptionHyperlinks>
+      <HediffDef>Sweety_MilkMix</HediffDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+</Defs>
