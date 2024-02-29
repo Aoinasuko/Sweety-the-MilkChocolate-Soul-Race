@@ -33,7 +33,7 @@
     </tradeTags>
     <thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
     <costList>
-      <Gold>500</Gold>
+      <Gold>100</Gold>
       <Sweety_ChocoMilk>20</Sweety_ChocoMilk>
       <Chocolate>50</Chocolate>
     </costList>
@@ -47,6 +47,7 @@
       <workSkill>Cooking</workSkill>
       <effectWorking>Cook</effectWorking>
       <soundWorking>Recipe_CookMeal</soundWorking>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     </recipeMaker>
     <comps>
     </comps>

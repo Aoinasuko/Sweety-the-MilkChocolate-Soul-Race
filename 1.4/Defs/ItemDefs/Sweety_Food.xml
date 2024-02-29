@@ -123,6 +123,7 @@
         <Cooking>5</Cooking>
       </skillRequirements>
       <researchPrerequisite>Cocoa</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     </recipeMaker>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>

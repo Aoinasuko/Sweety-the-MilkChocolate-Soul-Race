@@ -225,6 +225,7 @@
 				<body>BEPRaceCore/Race/Body/Normal/</body>
 				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
 				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
+				<swaddle>BEPRaceCore/Race/Dummy/Dummy</swaddle>
 				<skinShader>Cutout</skinShader>
 				<skinColor>(1,1,1,1)</skinColor>
 			</graphicPaths>
@@ -567,6 +568,7 @@
 		<defName>Sweety_Child</defName>
 		<label>Sweety Child</label>
 		<reproductive>false</reproductive>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
 		<visible>false</visible>
 		<statFactors>
 			<MoveSpeed>0.75</MoveSpeed>
@@ -580,6 +582,7 @@
 		<defName>Sweety_Adult</defName>
 		<label>Sweety Adult</label>
 		<reproductive>true</reproductive>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
 		<milkable>true</milkable>
 		<visible>false</visible>
 		<developmentalStage>Adult</developmentalStage>
