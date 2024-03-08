@@ -19,4 +19,11 @@ namespace Sweety_Race
     {
         public static FleshTypeDef Sweety;
     }
+
+    [DefOf]
+    public static class Faction_Sweety
+    {
+        public static FactionDef Sweety_WildSweety;
+    }
+
 }

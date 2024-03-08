@@ -14,7 +14,7 @@ namespace Sweety_Race
 		{
 			if (pawn.RaceProps.intelligence == Intelligence.Humanlike)
 			{
-				PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named("Sweety_Visitor"), null, PawnGenerationContext.NonPlayer, -1);
+				PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named("Sweety_Visitor"), Find.FactionManager.FirstFactionOfDef(Faction_Sweety.Sweety_WildSweety), PawnGenerationContext.NonPlayer, -1);
 				Pawn pawn_sweety = PawnGenerator.GeneratePawn(request);
 				if (PawnUtility.TrySpawnHatchedOrBornPawn(pawn_sweety, pawn))
 				{
@@ -25,11 +25,12 @@ namespace Sweety_Race
 						FilthMaker.TryMakeFilth(pawn_sweety.PositionHeld, pawn_sweety.MapHeld, pawn_sweety.RaceProps.BloodDef, pawn_sweety.LabelIndefinite());
 					}
 					pawn_sweety.health.AddHediff(HediffDef.Named("Anesthetic"));
-				}
+					pawn_sweety.guest.Recruitable = false;
+                }
 			}
 			else
 			{
-				PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named("Sweety_Bitterdragon"), null, PawnGenerationContext.NonPlayer, -1);
+				PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named("Sweety_Bitterdragon"), Find.FactionManager.FirstFactionOfDef(Faction_Sweety.Sweety_WildSweety), PawnGenerationContext.NonPlayer, -1);
 				Pawn pawn_sweety = PawnGenerator.GeneratePawn(request);
 				if (PawnUtility.TrySpawnHatchedOrBornPawn(pawn_sweety, pawn))
 				{
