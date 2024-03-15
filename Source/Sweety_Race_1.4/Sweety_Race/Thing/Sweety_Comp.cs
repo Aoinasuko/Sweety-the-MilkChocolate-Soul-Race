@@ -17,11 +17,11 @@ namespace Sweety_Race
 	{
 		public override void PostSpawnSetup(bool respawningAfterLoad)
 		{
-			Pawn pawn = (Pawn)this.parent;
-			if (pawn.Faction?.IsPlayer ?? true)
+			if (respawningAfterLoad == false)
 			{
-				pawn.health.AddHediff(HediffDef.Named("Sweety_HeatResist"));
-			}
+                Pawn pawn = (Pawn)this.parent;
+                pawn.health.AddHediff(HediffDef.Named("Sweety_HeatResist"));
+            }
 		}
 
 		public override void CompTick()
